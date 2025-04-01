@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>내 웹사이트</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Open Graph 메타태그: 링크 공유 시 보여질 정보 -->
+  <meta property="og:title" content="노하~의 고양이 월드 🐱">
+  <meta property="og:description" content="반갑다 강원 게이야! 노하~와 함께하는 귀여운 사이트 🎉">
+  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSahQV-Zacy4vVu6jON5PNrrxbuT4r5k2rD1g&s">
+  <meta property="og:url" content="https://yourusername.github.io/your-site/">
+  <meta property="og:type" content="website">
+
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 50px;
+      background-color: #fffbe6;
+    }
+
+    .title {
+      font-size: 100px;
+      font-weight: bold;
+      animation: pop-in 1.5s ease-out forwards;
+    }
+
+    .custom-image {
+      margin-top: 30px;
+      width: 500px;
+      border-radius: 10px;
+      animation: fade-in 2s ease-in-out;
+    }
+
+    .noha {
+      font-size: 50px;
+      animation: blink 1.2s infinite;
+      color: tomato;
+      font-weight: bold;
+    }
+
+    @keyframes pop-in {
+      0% {
+        transform: scale(0.6);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.3;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="title">반갑다 강원 게이야! 우흥!</div>
+
+  <img class="custom-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSahQV-Zacy4vVu6jON5PNrrxbuT4r5k2rD1g&s" alt="고양이 이미지">
+
+  <p class="noha">노하~</p>
+
+</body>
+</html>
